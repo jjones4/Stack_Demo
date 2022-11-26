@@ -1,2 +1,2 @@
 # Stack_Demo
-Stack Demonstration
+Custom implementation of a stack in C# to demonstrate proficiency
