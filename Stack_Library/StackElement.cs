@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Stack_Library
 {
-    internal class StackElement<T>
+    public class StackElement<T>
     {
-        internal StackElement<T>? Next { get; set; }
-        internal T Data { get; set; }
+        public StackElement<T>? Next { get; set; }
+        public T Data { get; set; }
 
-        internal StackElement(StackElement<T>? next, T data)
+        public StackElement(StackElement<T>? next, T data)
         {
             Next = next;
             Data = data;
