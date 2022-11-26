@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Stack_Library
 {
-    public class MyStack<T>
+    public class CustomStack<T>
     {
         StackElement<T>? _top;
 

@@ -6,7 +6,7 @@ namespace Stack_Demo
     {
         static void Main(string[] args)
         {
-            MyStack<int> intStack = new MyStack<int>();
+            CustomStack<int> intStack = new CustomStack<int>();
             intStack.PushData(1);
             intStack.PushData(2);
             intStack.PushData(3);
@@ -15,7 +15,7 @@ namespace Stack_Demo
             Console.WriteLine(intStack.PopData());
             Console.WriteLine();
 
-            MyStack<string> stringStack = new MyStack<string>();
+            CustomStack<string> stringStack = new CustomStack<string>();
             stringStack.PushData("A");
             stringStack.PushData("B");
             stringStack.PushData("C");
