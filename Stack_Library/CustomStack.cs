@@ -12,6 +12,7 @@ namespace Stack_Library
 
         public void PushData(T data)
         {
+            Console.WriteLine($"We are pushing {data} onto the stack.");
             _top = new StackElement<T>(_top, data);
         }
 

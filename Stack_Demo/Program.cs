@@ -10,18 +10,25 @@ namespace Stack_Demo
             intStack.PushData(1);
             intStack.PushData(2);
             intStack.PushData(3);
-            Console.WriteLine(intStack.PopData());
-            Console.WriteLine(intStack.PopData());
-            Console.WriteLine(intStack.PopData());
+
+            Console.WriteLine();
+
+            Console.WriteLine($"We are popping {intStack.PopData()} from the stack.");
+            Console.WriteLine($"We are popping {intStack.PopData()} from the stack.");
+            Console.WriteLine($"We are popping {intStack.PopData()} from the stack.");
+
             Console.WriteLine();
 
             CustomStack<string> stringStack = new CustomStack<string>();
             stringStack.PushData("A");
             stringStack.PushData("B");
             stringStack.PushData("C");
-            Console.WriteLine(stringStack.PopData());
-            Console.WriteLine(stringStack.PopData());
-            Console.WriteLine(stringStack.PopData());
+
+            Console.WriteLine();
+
+            Console.WriteLine($"We are popping {stringStack.PopData()} from the stack.");
+            Console.WriteLine($"We are popping {stringStack.PopData()} from the stack.");
+            Console.WriteLine($"We are popping {stringStack.PopData()} from the stack.");
         }
     }
 }
